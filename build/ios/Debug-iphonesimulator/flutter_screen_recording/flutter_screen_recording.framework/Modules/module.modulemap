@@ -1,0 +1,11 @@
+framework module flutter_screen_recording {
+  umbrella header "flutter_screen_recording-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_screen_recording.Swift {
+  header "flutter_screen_recording-Swift.h"
+  requires objc
+}

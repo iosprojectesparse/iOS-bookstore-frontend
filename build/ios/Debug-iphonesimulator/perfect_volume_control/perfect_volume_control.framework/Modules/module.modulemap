@@ -1,0 +1,11 @@
+framework module perfect_volume_control {
+  umbrella header "perfect_volume_control-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module perfect_volume_control.Swift {
+  header "perfect_volume_control-Swift.h"
+  requires objc
+}

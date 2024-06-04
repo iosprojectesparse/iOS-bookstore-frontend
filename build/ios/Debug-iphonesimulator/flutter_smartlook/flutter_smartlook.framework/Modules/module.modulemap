@@ -1,0 +1,11 @@
+framework module flutter_smartlook {
+  umbrella header "flutter_smartlook-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_smartlook.Swift {
+  header "flutter_smartlook-Swift.h"
+  requires objc
+}

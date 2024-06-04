@@ -1,0 +1,11 @@
+framework module record_mp3 {
+  umbrella header "record_mp3-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module record_mp3.Swift {
+  header "record_mp3-Swift.h"
+  requires objc
+}
